@@ -1,0 +1,82 @@
+.bannerSection {
+    margin-top: 62px;
+    height: 100vh;
+    z-index: 999;
+    -webkit-filter: grayscale(30%);
+    filter: grayscale(30%);
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.bannerSection .container {
+    height: 100%;
+}
+
+.bannerSection .container .row {
+    height: 100%;
+}
+
+.bannerSection .select-wrapper input.select-dropdown {
+    background-color: rgba(255, 255, 255, 0.32);
+    border: none;
+}
+
+.bannerSection .select-wrapper span.caret {
+    color: #fff;
+    top: 6px;
+    right: 8px;
+}
+
+.bannerSection .select-wrapper input.select-dropdown {
+    color: #bbbbbb;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.bannerSection .select-wrapper+label {
+    top: 0;
+    transform: translateY(-100%);
+}
+
+.signupForm {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+.signupForm .heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signupForm .heading h2 {
+    font-size: 36px;
+    color: #fe7043;
+}
+
+.signupForm .heading h2 span {
+    font-family: "Belle et Belle Personal Use";
+}
+
+.signupForm .form-group label {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.signupButton {
+    padding: 5px 35px;
+    margin: 0;
+    background: #cc0229;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+}

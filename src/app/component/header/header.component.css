@@ -1,0 +1,81 @@
+header {
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 1000ms ease-in-out;
+    -moz-transition: all 1000ms ease-in-out;
+    -ms-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+    left: 0;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    z-index: 9999999999;
+    background: #fff;
+    width: 100%;
+}
+
+header.sticky {
+    position: fixed;
+}
+
+.logo {
+    width: 172px;
+    -ms-flex: 0 0 172px;
+    flex: 0 0 172px;
+}
+
+.right_side {
+    width: calc(100% - 172px);
+    -ms-flex: 0 0 calc(100% - 172px);
+    flex: 0 0 calc(100% - 172px);
+    display: flex;
+    align-self: center;
+}
+
+.right_side nav {
+    flex: 1 0 0;
+}
+
+.right_side .loginBtn {
+    flex: 0 0 auto;
+}
+
+.right_side .loginBtn .btn {
+    padding: 5px 15px;
+    margin: 0;
+    background: #fd5068;
+    color: white;
+    font-size: 12px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    font-weight: 700;
+}
+
+.right_side ul {
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: flex-end;
+}
+
+.right_side ul li {
+    width: auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.right_side ul li a {
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 5px 9px;
+    color: #141414;
+    font-weight: bold;
+}
+
+header {
+    background: #fff;
+    padding: 8px 0;
+}
