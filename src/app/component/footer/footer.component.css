@@ -1,0 +1,53 @@
+footer {
+    background: #1d1d1d;
+    padding: 40px 0;
+    color: #6f6f6f;
+}
+
+footer .title h2 {
+    font-size: 26px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer ul li {
+    font-size: 14px;
+}
+
+footer ul li span {
+    display: flex;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+footer ol {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer ol li {
+    list-style: none;
+    width: 33.333333337%;
+    flex: 0 0 33.333333337%;
+}
+
+footer ol li a {
+    padding: 5px;
+}
+
+footer ol li img {
+    width: 100%;
+    height: 60px;
+    object-fit: cover;
+}
+
+.bottomFooter {
+    text-align: center;
+    color: #808688;
+    background: #1b1b1b;
+    padding: 15px 0;
+}
